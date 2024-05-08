@@ -1,0 +1,182 @@
+<!DOCTYPE html >
+
+<html  lang="fr">
+<link href="style.css" rel="stylesheet"> 
+<head> <title> </title> </head>
+<body>
+<script src="J1J2.js" defer ></script> 
+<script src="1ercontreordi.js" defer ></script> 
+<script src="ordicontrejoueur.js" defer ></script> 
+
+
+
+<!--
+<script src="sauvegarde/actuel2.js" defer ></script> 
+
+  Code + ordi // Tout fonctionne bien sauf ordi attaque en premier
+
+-->
+
+
+
+
+<button id="btn">Button</button>
+
+<div class="jeu">
+<!--
+  <div class="debut">
+
+  <input type="radio" name="choix" id="x" > 
+  <label for="persaccount" >Premier
+  </label>
+  <br><br>
+  <input type="radio" name="choix" id="o" > 
+  <label for="buaccount" >Deuxieme
+  </label>  -->
+<!--
+
+</div>
+
+
+-->
+
+<!--
+
+<dialog open>
+
+
+  <p> Voulez-vous jouer avec ou  X ou O ?</p>
+   
+   <form method="dialog">
+ <button id="x">
+   X
+ </button>
+ 
+ <button id="y">
+  O
+ </button>
+ 
+   </form>
+ 
+ </dialog>
+-->
+
+
+ <dialog id="rang">
+
+
+  <p> Voulez-vous etre 1er (X)  ou 2eme (Y)? </p>
+   
+   <form method="dialog">
+ <button id="x" onclick="Or1()">
+   1er (X)
+ </button>
+ 
+ <button id="y" onclick="Or2()">
+  2eme(O)
+ </button>
+ 
+   </form>
+ 
+ </dialog>
+
+
+
+<dialog open>
+  
+  <p> "Voulez-vous jouer seul ou contre un deuxieme joeur ?" </p>
+   
+   <form method="dialog">
+ <button id="ordi" onclick="rang()">
+   Seul
+ </button>
+ 
+ <button id="joueur" onclick="J()">
+  Un autre joueur
+ </button>
+
+ 
+   </form>
+ 
+ </dialog>
+
+
+
+
+<div >
+    
+  <span  >
+    <button  class="case one" alt="">
+  </span >
+
+  <span  >
+    <button  class="case two" alt="">
+  </span >
+  
+  <span >
+    <button  class="case three" alt="">
+
+  </span>
+
+</div >
+
+<div >
+  <span >
+    <button  class="case four" alt="">
+  </span >
+
+  <span >
+    <button  class="case five" alt="">
+  </span >
+
+  <span >
+    <button  class="case six" alt="">
+  </span >
+
+</div >
+
+<div >
+  <span>
+    <button  class="case seven" alt="">
+  </span >
+
+  <span >
+    <button  class="case eight" alt="">
+  </span >
+  <span >
+    <button  class="case nine" alt="">
+  </span >
+
+
+</div >
+
+</div >
+
+
+
+
+
+<div>
+  <p id ='text'>JavaScript Exercises - w3resource</p> 
+  
+<div>
+
+<!--
+
+<button id="jsstyle"
+onclick="js_style()">Style</button>
+-->
+
+
+<button id="arriere">Marche arriere</button>
+
+<p id="tdj"> Tour du 1er joueur</p>
+
+<button id="reset" onclick="Inijeu()">Rejouer</button>
+
+
+</div>
+
+</body>
+</html>
+
