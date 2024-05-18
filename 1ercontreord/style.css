@@ -1,0 +1,47 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+
+
+.jeu {
+    box-shadow: 0 10px 20px ;
+    border: 1px solid ;
+    border-width: 2px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 1rem;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+
+p { 
+ 
+background : grey;
+
+}
+
+* { background : blue ; }
+*{ text-align :  center ;
+margin: auto;
+color : black; }
+
+.debut { display:none; }
+
+.case {
+width: 80px;
+height: 80px;
+margin: 0.3rem;
+background-color: cyan;
+display:inline;
+font-size: 30px;
+
+}
+
+
+
+dialog { height :200px; width:200px ; margin-bottom: 4000px;}
